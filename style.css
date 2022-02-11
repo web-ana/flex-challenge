@@ -1,0 +1,17 @@
+.flex-container div {
+  width: 150px;
+  height: 100px;
+  background: rgb(135, 99, 194);
+  font-size: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row-reverse wrap-reverse;
+  gap: 2em;
+}
